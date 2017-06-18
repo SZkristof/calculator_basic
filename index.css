@@ -1,0 +1,87 @@
+body {
+    background-color: lemonchiffon;
+}
+#equal {
+    width: 14em !important;
+    background: red;
+    background: -webkit-linear-gradient(red, darkgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, darkgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, darkgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, darkgray); /* Standard syntax */
+    color: white;
+}
+#resultBar {
+    width: 12.2em;
+    height: 1.8em;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+}
+
+input[type="text"] {
+    font-size: 28px;
+}
+
+#calculator {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+#rows {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 4.3em;
+    position: relative;
+}
+
+#firstRow {
+    margin-top: 5px;
+}
+
+#secondRow {
+    margin-top: 2px;
+}
+
+#thirdRow {
+    margin-top: 2px;
+}
+
+#fourthRow {
+    margin-top: 2px;
+}
+
+#fifthRow {
+    margin-top: 2px;
+}
+
+.button {
+    width: 4.48em;
+    height: 4.48em;
+    font-size: 1em;
+}
+.numbers {
+    border-radius: 8px;
+}
+
+.operators {
+    border-radius: 70%;
+}
+
+#clearAll {
+    width: 3.95em;
+    height: 4em;
+    margin-bottom: 2px;
+    margin-right: 3px;
+    background: gray;
+    background: -webkit-linear-gradient(gray, darkgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(gray, darkgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(gray, darkgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(gray, darkgray); /* Standard syntax */
+    color: white;
+}
+
+#backSpace {
+    margin-bottom: -32px;
+    width: 8%;
+    height: 8%;
+}

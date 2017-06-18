@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <div id="calculator">
+            <div id="inputBar">
+                <input id="clearAll" class="button" type="button" value="C" onClick="display('c')">
+                <input type="text" id="resultBar" value="" disabled>
+                <input id="backSpace" class="button" type="image" src="delete-512.png" onclick="display('b')"/>
+            </div>
+            <div id="rows">
+                <div id="secondRow">
+                    <input class="button numbers" type="button" value="7" onClick="display('7')">
+                    <input class="button numbers" type="button" value="8" onClick="display('8')">
+                    <input class="button numbers" type="button" value="9" onClick="display('9')">
+                    <input class="button operators" type="button" value="+" onclick="display('+')">
+                    <input class="button operators" type="button" value="-" onclick="display('-')">
+                </div>
+                <div id="thirdRow">
+                    <input class="button numbers" type="button" value="4" onClick="display('4')">
+                    <input class="button numbers" type="button" value="5" onClick="display('5')">
+                    <input class="button numbers" type="button" value="6" onClick="display('6')">   
+                    <input class="button operators" type="button" value="*" onClick="display('*')">
+                    <input class="button operators" type="button" value="/" onClick="display('/')">
+                </div>
+                <div id="fourthRow">
+                    <input class="button numbers" type="button" value="1" onClick="display('1')">
+                    <input class="button numbers" type="button" value="2" onClick="display('2')">
+                    <input class="button numbers" type="button" value="3" onClick="display('3')">
+                    <input class="button operators" type="button" value="&pi;" onClick="display('3.141')">
+                    <input class="button operators" type="button" value="%" onClick="display('%')">
+                    
+                </div>
+                <div id="fifthRow">
+                    <input class="button numbers" type="button" value="0" onClick="display('0')">   
+                    <input id="equal" class="button" type="button" value="=" onclick="display('=')">
+                    <input class="button operators" type="button" value="." onclick="display('.')">
+                    
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
