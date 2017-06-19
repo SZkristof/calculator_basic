@@ -15,7 +15,6 @@ function display(char) {
         } else if (char !== "=") {
             equation.push(char);
             result.value += equation;
-            alert(equation)
         } else {
             var checkNumber = isFinite(eval(result.value));
             if (checkNumber === true) {
